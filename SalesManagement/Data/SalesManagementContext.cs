@@ -14,6 +14,10 @@ namespace SalesManagement.Data
         {
         }
 
-        public DbSet<SalesManagement.Models.Department> Department { get; set; }
+        public DbSet<Department> Department { get; set; }
+
+        public DbSet<Seller> Seller { get; set; }
+
+        public DbSet<SalesRecord> SalesRecord { get; set; }
     }
 }
